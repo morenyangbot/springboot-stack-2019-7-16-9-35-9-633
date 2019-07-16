@@ -13,7 +13,7 @@ import java.util.stream.Collectors;
 public class EmployeeService {
 
     private Map<Integer, Employee> employeeMap = new HashMap<>();
-    private int idGeneratorIndex = 1;
+    private int idGeneratorIndex = 0;
 
     public List<Employee> findAll() {
         return new ArrayList<>(employeeMap.values());
